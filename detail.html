@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    #images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#images-container img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+</style>
+<body>
+    <h1>Product Category: <span id="category-name"></span></h1>
+    <div id="images-container"></div>
+
+    <script>
+        // Event listener for navigating to details.html with category
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll(".see-more").forEach(item => {
+                item.addEventListener("click", event => {
+                    const category = event.target.id;
+                    window.location.href = `details.html?category=${category}`;
+                });
+            });
+        });
+
+        // Event listener for fetching and displaying images based on category in details.html
+        document.addEventListener("DOMContentLoaded", () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const category = urlParams.get('category');
+            if (category) {
+                document.getElementById('category-name').innerText = category;
+                fetchImages(category);
+            }
+        });
+
+        function fetchImages(category) {
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const images = data.categories[category];
+                    displayImages(images);
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function displayImages(images) {
+            const container = document.getElementById('images-container');
+            container.innerHTML = ''; // Clear previous images
+            images.forEach(img => {
+                const imgElement = document.createElement('img');
+                imgElement.src = img;
+                container.appendChild(imgElement);
+            });
+        }
+    </script>
+</body>
+</html>

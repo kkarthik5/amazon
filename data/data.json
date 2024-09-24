@@ -1,0 +1,1640 @@
+{
+    "categories": {
+        "Clothes": [
+            {
+                "image": "cloth_1.jpg",
+                "name": "Casual Shirt",
+                "product_id": "cloth_1"
+            },
+            {
+                "image": "cloth_2.jpg",
+                "name": "Summer Dress",
+                "product_id": "cloth_2"
+            },
+            {
+                "image": "cloth_3.jpg",
+                "name": "Jeans",
+                "product_id": "cloth_3"
+            },
+            {
+                "image": "cloth_4.jpg",
+                "name": "Winter Jacket",
+                "product_id": "cloth_4"
+            },
+            {
+                "image": "cloth_5.jpg",
+                "name": "T-Shirt",
+                "product_id": "cloth_5"
+            },
+            {
+                "image": "cloth_6.jpg",
+                "name": "Formal Pants",
+                "product_id": "cloth_6"
+            },
+            {
+                "image": "cloth_7.jpg",
+                "name": "Blouse",
+                "product_id": "cloth_7"
+            },
+            {
+                "image": "cloth_8.jpg",
+                "name": "Skirt",
+                "product_id": "cloth_8"
+            }
+        ],
+        "Personal Care": [
+            {
+                "image": "personal_1.jpg",
+                "name": "Eye Mask",
+                "product_id": "personal_1"
+            },
+            {
+                "image": "personal_2.jpg",
+                "name": "Facial Cleanser",
+                "product_id": "personal_2"
+            },
+            {
+                "image": "personal_3.jpg",
+                "name": "Hair Brush",
+                "product_id": "personal_3"
+            },
+            {
+                "image": "personal_4.jpg",
+                "name": "Moisturizer",
+                "product_id": "personal_4"
+            },
+            {
+                "image": "personal_5.jpg",
+                "name": "Lip Balm",
+                "product_id": "personal_5"
+            },
+            {
+                "image": "personal_6.jpg",
+                "name": "Shampoo",
+                "product_id": "personal_6"
+            },
+            {
+                "image": "personal_7.jpg",
+                "name": "Conditioner",
+                "product_id": "personal_7"
+            },
+            {
+                "image": "personal_8.jpg",
+                "name": "Body Lotion",
+                "product_id": "personal_8"
+            }
+        ],
+        "Furniture": [
+            {
+                "image": "furn_1.jpg",
+                "name": "Sofa",
+                "product_id": "furn_1"
+            },
+            {
+                "image": "furn_2.jpg",
+                "name": "Dining Table",
+                "product_id": "furn_2"
+            },
+            {
+                "image": "furn_3.jpg",
+                "name": "Chair",
+                "product_id": "furn_3"
+            },
+            {
+                "image": "furn_4.jpg",
+                "name": "Wardrobe",
+                "product_id": "furn_4"
+            },
+            {
+                "image": "furn_5.jpg",
+                "name": "Coffee Table",
+                "product_id": "furn_5"
+            },
+            {
+                "image": "furn_6.jpg",
+                "name": "Bed",
+                "product_id": "furn_6"
+            },
+            {
+                "image": "furn_7.jpg",
+                "name": "Bookshelf",
+                "product_id": "furn_7"
+            },
+            {
+                "image": "furn_8.jpg",
+                "name": "TV Stand",
+                "product_id": "furn_8"
+            }
+        ],
+        "Electronics": [
+            {
+                "image": "elec_1.jpg",
+                "name": "Smartphone",
+                "product_id": "elec_1"
+            },
+            {
+                "image": "elec_2.jpg",
+                "name": "Laptop",
+                "product_id": "elec_2"
+            },
+            {
+                "image": "elec_3.jpg",
+                "name": "Tablet",
+                "product_id": "elec_3"
+            },
+            {
+                "image": "elec_4.jpg",
+                "name": "Smartwatch",
+                "product_id": "elec_4"
+            },
+            {
+                "image": "elec_5.jpg",
+                "name": "Camera",
+                "product_id": "elec_5"
+            },
+            {
+                "image": "elec_6.jpg",
+                "name": "Headphones",
+                "product_id": "elec_6"
+            },
+            {
+                "image": "elec_7.jpg",
+                "name": "Speaker",
+                "product_id": "elec_7"
+            },
+            {
+                "image": "elec_8.jpg",
+                "name": "Monitor",
+                "product_id": "elec_8"
+            }
+        ],
+        "Beauty Picks": [
+            {
+                "image": "beauty_1.jpg",
+                "name": "Lipstick",
+                "product_id": "beauty_1"
+            },
+            {
+                "image": "beauty_2.jpg",
+                "name": "Foundation",
+                "product_id": "beauty_2"
+            },
+            {
+                "image": "beauty_3.jpg",
+                "name": "Mascara",
+                "product_id": "beauty_3"
+            },
+            {
+                "image": "beauty_4.jpg",
+                "name": "Blush",
+                "product_id": "beauty_4"
+            },
+            {
+                "image": "beauty_5.jpg",
+                "name": "Eyeliner",
+                "product_id": "beauty_5"
+            },
+            {
+                "image": "beauty_6.jpg",
+                "name": "Eyeshadow",
+                "product_id": "beauty_6"
+            },
+            {
+                "image": "beauty_7.jpg",
+                "name": "Concealer",
+                "product_id": "beauty_7"
+            },
+            {
+                "image": "beauty_8.jpg",
+                "name": "Nail Polish",
+                "product_id": "beauty_8"
+            }
+        ],
+        "Pet Care": [
+            {
+                "image": "pet_1.jpg",
+                "name": "Dog Food",
+                "product_id": "pet_1"
+            },
+            {
+                "image": "pet_2.jpg",
+                "name": "Cat Litter",
+                "product_id": "pet_2"
+            },
+            {
+                "image": "pet_3.jpg",
+                "name": "Pet Shampoo",
+                "product_id": "pet_3"
+            },
+            {
+                "image": "pet_4.jpg",
+                "name": "Pet Bed",
+                "product_id": "pet_4"
+            },
+            {
+                "image": "pet_5.jpg",
+                "name": "Pet Toys",
+                "product_id": "pet_5"
+            },
+            {
+                "image": "pet_6.jpg",
+                "name": "Pet Carrier",
+                "product_id": "pet_6"
+            },
+            {
+                "image": "pet_7.jpg",
+                "name": "Pet Leash",
+                "product_id": "pet_7"
+            },
+            {
+                "image": "pet_8.jpg",
+                "name": "Pet Bowls",
+                "product_id": "pet_8"
+            }
+        ],
+        "New arrivals in Toys": [
+            {
+                "image": "toy_1.jpg",
+                "name": "Action Figure",
+                "product_id": "toy_1"
+            },
+            {
+                "image": "toy_2.jpg",
+                "name": "Board Game",
+                "product_id": "toy_2"
+            },
+            {
+                "image": "toy_3.jpg",
+                "name": "Puzzle",
+                "product_id": "toy_3"
+            },
+            {
+                "image": "toy_4.jpg",
+                "name": "Doll",
+                "product_id": "toy_4"
+            },
+            {
+                "image": "toy_5.jpg",
+                "name": "RC Car",
+                "product_id": "toy_5"
+            },
+            {
+                "image": "toy_6.jpg",
+                "name": "Lego Set",
+                "product_id": "toy_6"
+            },
+            {
+                "image": "toy_7.jpg",
+                "name": "Building Blocks",
+                "product_id": "toy_7"
+            },
+            {
+                "image": "toy_8.jpg",
+                "name": "Stuffed Animal",
+                "product_id": "toy_8"
+            }
+        ],
+        "Fashion Trends": [
+            {
+                "image": "fashion_1.jpg",
+                "name": "Stylish Jacket",
+                "product_id": "finestfit_1"
+            },
+            {
+                "image": "fashion_2.jpg",
+                "name": "Trendy Jeans",
+                "product_id": "fashion_2"
+            },
+            {
+                "image": "fashion_3.jpg",
+                "name": "Summer Top",
+                "product_id": "fashion_3"
+            },
+            {
+                "image": "fashion_4.jpg",
+                "name": "Maxi Dress",
+                "product_id": "fashion_4"
+            },
+            {
+                "image": "fashion_5.jpg",
+                "name": "Sneakers",
+                "product_id": "fashion_5"
+            },
+            {
+                "image": "fashion_6.jpg",
+                "name": "Sunglasses",
+                "product_id": "fashion_6"
+            },
+            {
+                "image": "fashion_7.jpg",
+                "name": "Handbag",
+                "product_id": "fashion_7"
+            },
+            {
+                "image": "fashion_8.jpg",
+                "name": "Hat",
+                "product_id": "fashion_8"
+            }
+        ]
+    },
+    "productDetails": {
+     "Clothes":{
+        "cloth_1": {
+            "full_name": "Casual Shirt for Men, Slim Fit, 100% Cotton",
+            "brand": "FashionBrand",
+            "price": "₹1",
+            "mrp": "₹1299",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Tuesday, 10 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 3 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "BestApparel Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹50 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the FashionBrand store",
+            "detail_image": "images/cloth_1.jpg"
+        },
+        "cloth_2": {
+            "full_name": "Summer Dress for Women, Floral Print, Lightweight",
+            "brand": "ElegantWear",
+            "price": "₹1499",
+            "mrp": "₹1999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Wednesday, 11 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 2 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "StyleHub Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹75 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the ElegantWear store",
+            "detail_image": "images/cloth_2.jpg"
+        },
+        "cloth_3": {
+            "full_name": "Jeans for Men, Regular Fit, Denim",
+            "brand": "DenimHub",
+            "price": "₹1299",
+            "mrp": "₹1599",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Thursday, 12 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 4 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "DenimCo Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹60 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the DenimHub store",
+            "detail_image": "images/cloth_3.jpg"
+        },
+        "cloth_4": {
+            "full_name": "Winter Jacket for Men, Waterproof, Insulated",
+            "brand": "WarmWear",
+            "price": "₹2499",
+            "mrp": "₹2999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Friday, 13 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 5 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "WinterEssentials Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹100 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the WarmWear store",
+            "detail_image": "images/cloth_4.jpg"
+        },
+        "cloth_5": {
+            "full_name": "T-Shirt for Men, Cotton Blend, Round Neck",
+            "brand": "Casuals",
+            "price": "₹599",
+            "mrp": "₹799",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Saturday, 14 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 6 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "Casuals Inc."
+            },
+            "emi": "EMI starts at ₹30 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the Casuals store",
+            "detail_image": "images/cloth_5.jpg"
+        },
+        "cloth_6": {
+            "full_name": "Formal Pants for Men, Slim Fit, Black",
+            "brand": "OfficeStyle",
+            "price": "₹1299",
+            "mrp": "₹1599",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Sunday, 15 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 7 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "Professional Attire Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹60 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the OfficeStyle store",
+            "detail_image": "images/cloth_6.jpg"
+        },
+        "cloth_7": {
+            "full_name": "Blouse for Women, Silk Blend, Elegant",
+            "brand": "ChicWear",
+            "price": "₹799",
+            "mrp": "₹999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Monday, 16 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 8 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "StyleMakers Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹40 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the ChicWear store",
+            "detail_image": "images/cloth_7.jpg"
+        },
+        "cloth_8": {
+            "full_name": "Skirt for Women, Floral Print, Knee-Length",
+            "brand": "TrendSetter",
+            "price": "₹899",
+            "mrp": "₹1199",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Tuesday, 17 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 9 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "FashionTrends Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹45 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the TrendSetter store",
+            "detail_image": "images/cloth_8.jpg"
+        }
+    },
+     "Personal Care":{
+        "personal_1": {
+            "full_name": "Eye Mask with Cooling Gel for Dark Circles, Dry Eyes",
+            "brand": "BoldHealth",
+            "price": "₹199",
+            "mrp": "₹299",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Wednesday, 18 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 10 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "HealthAndBeauty Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹10 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the BoldHealth store",
+            "detail_image": "images/personal_1.jpg"
+        },
+        "personal_2": {
+            "full_name": "Facial Cleanser with Vitamin C for Brightening and Hydrating Skin",
+            "brand": "PureGlow",
+            "price": "₹349",
+            "mrp": "₹499",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Thursday, 19 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 11 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "BeautyWorld Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹15 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the PureGlow store",
+            "detail_image": "images/personal_2.jpg"
+        },
+        "personal_3": {
+            "full_name": "Hair Brush with Soft Bristles for All Hair Types",
+            "brand": "HairCare",
+            "price": "₹299",
+            "mrp": "₹399",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Friday, 20 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 12 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "StyleAndCare Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹10 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the HairCare store",
+            "detail_image": "images/personal_3.jpg"
+        },
+        "personal_4": {
+            "full_name": "Moisturizer with Hyaluronic Acid for Deep Hydration",
+            "brand": "HydraPlus",
+            "price": "₹599",
+            "mrp": "₹799",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Saturday, 21 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 13 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "GlowCare Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹30 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the HydraPlus store",
+            "detail_image": "images/personal_4.jpg"
+        },
+        "personal_5": {
+            "full_name": "Lip Balm with SPF 15 for Sun Protection and Moisturizing",
+            "brand": "LushLips",
+            "price": "₹149",
+            "mrp": "₹199",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Sunday, 22 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 14 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "BeautyCare Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹10 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the LushLips store",
+            "detail_image": "images/personal_5.jpg"
+        },
+        "personal_6": {
+            "full_name": "Shampoo with Argan Oil for Silky Smooth Hair",
+            "brand": "SilkyShine",
+            "price": "₹299",
+            "mrp": "₹399",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Monday, 23 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 15 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "HairEssentials Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹10 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the SilkyShine store",
+            "detail_image": "images/personal_6.jpg"
+        },
+        "personal_7": {
+            "full_name": "Conditioner with Keratin for Repairing Damaged Hair",
+            "brand": "RepairPlus",
+            "price": "₹349",
+            "mrp": "₹449",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Tuesday, 24 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 16 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "CareEssentials Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹15 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the RepairPlus store",
+            "detail_image": "images/personal_7.jpg"
+        },
+        "personal_8": {
+            "full_name": "Body Lotion with Shea Butter for Deep Moisturization",
+            "brand": "SoftSkin",
+            "price": "₹399",
+            "mrp": "₹499",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Wednesday, 25 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 17 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "SkinCare Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹20 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the SoftSkin store",
+            "detail_image": "images/personal_8.jpg"
+        }
+     },
+     "Furniture":{
+        "furn_1": {
+            "full_name": "Luxury Sofa Set, 3+2 Seater, Leather Upholstery",
+            "brand": "ComfortHome",
+            "price": "₹29999",
+            "mrp": "₹39999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Thursday, 26 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 18 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "HomeFurnish Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹1499 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the ComfortHome store",
+            "detail_image": "images/furn_1.jpg"
+        },
+        "furn_2": {
+            "full_name": "Wooden Dining Table with 6 Chairs, Teak Finish",
+            "brand": "ClassicFurniture",
+            "price": "₹19999",
+            "mrp": "₹24999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Friday, 27 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 19 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "DiningElegance Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹999 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the ClassicFurniture store",
+            "detail_image": "images/furn_2.jpg"
+        },
+        "furn_3": {
+            "full_name": "Ergonomic Office Chair, Mesh Back, Adjustable Height",
+            "brand": "ErgoPlus",
+            "price": "₹4999",
+            "mrp": "₹5999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Saturday, 28 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 20 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "OfficeComfort Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹250 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the ErgoPlus store",
+            "detail_image": "images/furn_3.jpg"
+        },
+        "furn_4": {
+            "full_name": "3-Door Wardrobe, Sliding Doors, Mirror Finish",
+            "brand": "StorageMaster",
+            "price": "₹14999",
+            "mrp": "₹19999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Sunday, 29 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 21 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "StorageSolutions Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹749 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the StorageMaster store",
+            "detail_image": "images/furn_4.jpg"
+        },
+        "furn_5": {
+            "full_name": "Modern Coffee Table with Glass Top, Wooden Legs",
+            "brand": "LivingEssentials",
+            "price": "₹4999",
+            "mrp": "₹5999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Monday, 30 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 22 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "ModernLiving Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹250 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the Living Essentials store",
+            "detail_image": "images/furn_5.jpg"
+        },
+        "furn_6": {
+            "full_name": "Queen Size Bed with Storage, Solid Wood, Walnut Finish",
+            "brand": "SleepWell",
+            "price": "₹19999",
+            "mrp": "₹24999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Tuesday, 31 August on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 23 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "DreamComfort Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹999 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the SleepWell store",
+            "detail_image": "images/furn_6.jpg"
+        },
+        "furn_7": {
+            "full_name": "Bookshelf with Adjustable Shelves, Engineered Wood",
+            "brand": "BookWorm",
+            "price": "₹2999",
+            "mrp": "₹3999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Wednesday, 1 September on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 24 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "ReadMore Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹150 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the BookWorm store",
+            "detail_image": "images/furn_7.jpg"
+        },
+        "furn_8": {
+            "full_name": "TV Stand with Storage, MDF, White Finish",
+            "brand": "MediaCenter",
+            "price": "₹3999",
+            "mrp": "₹4999",
+            "delivery": {
+                "price": "Free delivery",
+                "delivery_time": "Thursday, 2 September on orders dispatched by Amazon over ₹499",
+                "fastest_delivery": "Or fastest delivery Today. Order within 25 hrs."
+            },
+            "availability": "In stock",
+            "seller": {
+                "shipper": "Amazon",
+                "sold_by": "EntertainmentSolutions Pvt Ltd"
+            },
+            "emi": "EMI starts at ₹200 per month",
+            "tax_info": "Inclusive of all taxes",
+            "additional_info": "Visit the MediaCenter store",
+            "detail_image": "images/furn_8.jpg"
+            }
+        },
+        "Electronics": {
+            "elec_1": {
+                "full_name": "42-inch Smart LED TV, 4K Ultra HD, HDR10",
+                "brand": "TechVision",
+                "price": "₹24999",
+                "mrp": "₹29999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Friday, 3 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 26 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "TechDeals Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹1250 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the TechVision store",
+                "detail_image": "images/elec_1.jpg"
+            },
+            "elec_2": {
+                "full_name": "Wireless Noise Cancelling Headphones, Bluetooth 5.0",
+                "brand": "SoundWave",
+                "price": "₹4999",
+                "mrp": "₹5999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Saturday, 4 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 27 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "AudioExperts Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹250 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the SoundWave store",
+                "detail_image": "images/elec_2.jpg"
+            },
+            "elec_3": {
+                "full_name": "Smartphone, 128GB Storage, 6GB RAM, Dual SIM",
+                "brand": "TechMaster",
+                "price": "₹14999",
+                "mrp": "₹17999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Sunday, 5 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 28 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "MobileStore Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹750 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the TechMaster store",
+                "detail_image": "images/elec_3.jpg"
+            },
+            "elec_4": {
+                "full_name": "Laptop, 15.6-inch, Intel i5, 8GB RAM, 512GB SSD",
+                "brand": "CompTech",
+                "price": "₹49999",
+                "mrp": "₹59999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Monday, 6 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 29 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "LaptopWorld Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹2499 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the CompTech store",
+                "detail_image": "images/elec_4.jpg"
+            },
+            "elec_5": {
+                "full_name": "Smartwatch, Fitness Tracker, Heart Rate Monitor",
+                "brand": "FitLife",
+                "price": "₹2999",
+                "mrp": "₹3999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Tuesday, 7 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 30 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "FitnessStore Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹150 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the FitLife store",
+                "detail_image": "images/elec_5.jpg"
+            },
+            "elec_6": {
+                "full_name": "Bluetooth Speaker, Portable, Waterproof",
+                "brand": "MusicFlow",
+                "price": "₹1999",
+                "mrp": "₹2499",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Wednesday, 8 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 31 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "AudioSolutions Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹100 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the MusicFlow store",
+                "detail_image": "images/elec_6.jpg"
+            },
+            "elec_7": {
+                "full_name": "Digital Camera, 24MP, 4K Video Recording",
+                "brand": "CaptureIt",
+                "price": "₹34999",
+                "mrp": "₹39999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Thursday, 9 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 32 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "CameraWorld Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹1749 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the CaptureIt store",
+                "detail_image": "images/elec_7.jpg"
+            },
+            "elec_8": {
+                "full_name": "Gaming Console, 1TB Storage, 4K Gaming",
+                "brand": "GamePro",
+                "price": "₹29999",
+                "mrp": "₹34999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Friday, 10 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 33 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "GamingHub Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹1499 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the GamePro store",
+                "detail_image": "images/elec_8.jpg"
+            }
+        },
+        "Beauty Picks": {
+            "beauty_1": {
+                "full_name": "Foundation, Full Coverage, Matte Finish",
+                "brand": "GlamLook",
+                "price": "₹999",
+                "mrp": "₹1299",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Saturday, 11 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 34 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "BeautyMart Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹50 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the GlamLook store",
+                "detail_image": "images/beauty_1.jpg"
+            },
+            "beauty_2": {
+                "full_name": "Lipstick, Long-lasting, Hydrating Formula",
+                "brand": "ColorSplash",
+                "price": "₹499",
+                "mrp": "₹599",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Sunday, 12 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 35 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "LipLovers Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹25 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the ColorSplash store",
+                "detail_image": "images/beauty_2.jpg"
+            },
+            "beauty_3": {
+                "full_name": "Eyeshadow Palette, 12 Shades, Matte and Shimmer",
+                "brand": "EyeArt",
+                "price": "₹899",
+                "mrp": "₹1099",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Monday, 13 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 36 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "EyeFashion Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹45 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the EyeArt store",
+                "detail_image": "images/beauty_3.jpg"
+            },
+            "beauty_4": {
+                "full_name": "Mascara, Waterproof, Volumizing",
+                "brand": "LashBoost",
+                "price": "₹799",
+                "mrp": "₹999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Tuesday, 14 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 37 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "LashExperts Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹40 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the LashBoost store",
+                "detail_image": "images/beauty_4.jpg"
+            },
+            "beauty_5": {
+                "full_name": "Perfume, Floral Fragrance, 100ml",
+                "brand": "ScentStory",
+                "price": "₹1499",
+                "mrp": "₹1799",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Wednesday, 15 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 38 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "FragranceWorld Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹75 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the ScentStory store",
+                "detail_image": "images/beauty_5.jpg"
+            },
+            "beauty_6": {
+                "full_name": "Hair Serum, Anti-Frizz, 100ml",
+                "brand": "HairGlow",
+                "price": "₹399",
+                "mrp": "₹499",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Thursday, 16 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 39 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "HairCare Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹20 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the HairGlow store",
+                "detail_image": "images/beauty_6.jpg"
+            },
+            "beauty_7": {
+                "full_name": "Nail Polish Set, 6 Colors, Long-Lasting",
+                "brand": "NailArt",
+                "price": "₹299",
+                "mrp": "₹399",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Friday, 17 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 40 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "NailStore Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹15 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the NailArt store",
+                "detail_image": "images/beauty_7.jpg"
+            },
+            "beauty_8": {
+                "full_name": "Skincare Set, Cleanser, Toner, Moisturizer",
+                "brand": "SkinCare",
+                "price": "₹999",
+                "mrp": "₹1299",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Saturday, 18 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 41 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "SkinShop Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹50 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the SkinCare store",
+                "detail_image": "images/beauty_8.jpg"
+            }
+        },
+        "Pet Care": {
+            "pet_1": {
+                "full_name": "Dog Food, Chicken Flavor, 10kg",
+                "brand": "PawJoy",
+                "price": "₹1999",
+                "mrp": "₹2499",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Sunday, 19 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 42 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "PetStore Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹100 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the PawJoy store",
+                "detail_image": "images/pet_1.jpg"
+            },
+            "pet_2": {
+                "full_name": "Cat Litter, Odor Control, 5kg",
+                "brand": "KittyCare",
+                "price": "₹599",
+                "mrp": "₹799",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Monday, 20 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 43 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "CatStore Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹30 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the KittyCare store",
+                "detail_image": "images/pet_2.jpg"
+            },
+            "pet_3": {
+                "full_name": "Bird Cage, Medium Size, Metal",
+                "brand": "TweetHome",
+                "price": "₹1499",
+                "mrp": "₹1799",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Tuesday, 21 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 44 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "BirdStore Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹75 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the TweetHome store",
+                "detail_image": "images/pet_3.jpg"
+            },
+            "pet_4": {
+                "full_name": "Aquarium Set, 20L, with Filter and Light",
+                "brand": "AquaWorld",
+                "price": "₹2999",
+                "mrp": "₹3499",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Wednesday, 22 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 45 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "FishStore Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹150 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the AquaWorld store",
+                "detail_image": "images/pet_4.jpg"
+            },
+            "pet_5": {
+                "full_name": "Dog Bed, Large Size, Washable",
+                "brand": "PuppyComfort",
+                "price": "₹999",
+                "mrp": "₹1299",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Thursday, 23 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 46 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "DogStore Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹50 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the PuppyComfort store",
+                "detail_image": "images/pet_5.jpg"
+		    },
+            "pet_6": {
+                "full_name":  "Cat Scratching Post, Natural Sisal",
+                "brand": "KittyHaven",
+                "price": "₹799",
+                "mrp": "₹999",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Sunday, 19 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 42 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "CatCorner Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹40 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the KittyHaven store",
+                "detail_image": "images/pet_6.jpg"
+                 },
+                "pet_7": {
+                "full_name": "Hamster Wheel, Silent Spinner",
+                "brand":  "RodentFun",
+                "price": "₹499",
+                "mrp": "₹699",
+                "delivery": {
+                    "price": "Free delivery",
+                    "delivery_time": "Sunday, 19 September on orders dispatched by Amazon over ₹499",
+                    "fastest_delivery": "Or fastest delivery Today. Order within 42 hrs."
+                },
+                "availability": "In stock",
+                "seller": {
+                    "shipper": "Amazon",
+                    "sold_by": "HamsterHome Pvt Ltd"
+                },
+                "emi": "EMI starts at ₹100 per month",
+                "tax_info": "Inclusive of all taxes",
+                "additional_info": "Visit the PawJoy store",
+                "detail_image": "images/pet_7.jpg"
+                },
+                "pet_8": {
+                    "full_name": "Rabbit Hutch, Weatherproof Wooden",
+                    "brand": "BunnyComfort",
+                    "price": "₹3199",
+                    "mrp": "₹3799",
+                    "delivery": {
+                        "price": "Free delivery",
+                        "delivery_time": "Sunday, 19 September on orders dispatched by Amazon over ₹499",
+                        "fastest_delivery": "Or fastest delivery Today. Order within 42 hrs."
+                    },
+                    "availability": "In stock",
+                    "seller": {
+                        "shipper": "Amazon",
+                        "sold_by": "RabbitNest Pvt Ltd"
+                    },
+                    "emi": "EMI starts at ₹100 per month",
+                    "tax_info": "Inclusive of all taxes",
+                    "additional_info": "Visit the PawJoy store",
+                    "detail_image": "images/pet_8.jpg"
+                }
+             },
+                "New arrivals in Toys": {
+                    "toy_1": {
+                        "full_name": "Remote Control Car",
+                        "brand": "SpeedRacer",
+                        "price": "₹1499",
+                        "mrp": "₹1999",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Wednesday, 7 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Tomorrow. Order within 24 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "ToyLand"
+                        },
+                        "emi": "EMI starts at ₹75 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the SpeedRacer store",
+                        "detail_image": "images/toy_1.jpg"
+                    },
+                    "toy_2": {
+                        "full_name": "Building Blocks Set",
+                        "brand": "BlockMaster",
+                        "price": "₹899",
+                        "mrp": "₹1299",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Friday, 9 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 48 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "ToyLand"
+                        },
+                        "emi": "EMI starts at ₹45 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the BlockMaster store",
+                        "detail_image": "images/toy_2.jpg"
+                    },
+                    "toy_3": {
+                        "full_name": "Dollhouse Play Set",
+                        "brand": "ToyWorld",
+                        "price": "₹2499",
+                        "mrp": "₹2999",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Monday, 12 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 72 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "ToyWorld"
+                        },
+                        "emi": "EMI starts at ₹125 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the ToyWorld store",
+                        "detail_image": "images/toy_3.jpg"
+                    },
+                    "toy_4": {
+                        "full_name": "Puzzle Game Set",
+                        "brand": "BrainTeasers",
+                        "price": "₹499",
+                        "mrp": "₹699",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Thursday, 8 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 24 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "BrainTeasers"
+                        },
+                        "emi": "EMI starts at ₹25 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the BrainTeasers store",
+                        "detail_image": "images/toy_4.jpg"
+                    },
+                    "toy_5": {
+                        "full_name": "Action Figure Set",
+                        "brand": "HeroToys",
+                        "price": "₹1799",
+                        "mrp": "₹2299",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Saturday, 10 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 48 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "HeroToys"
+                        },
+                        "emi": "EMI starts at ₹90 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the HeroToys store",
+                        "detail_image": "images/toy_5.jpg"
+                    },
+                    "toy_6": {
+                        "full_name": "Train Set with Tracks",
+                        "brand": "TrackMaster",
+                        "price": "₹2999",
+                        "mrp": "₹3499",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Tuesday, 6 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Tomorrow. Order within 36 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "TrackMaster"
+                        },
+                        "emi": "EMI starts at ₹150 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the TrackMaster store",
+                        "detail_image": "images/toy_6.jpg"
+                    },
+                    "toy_7": {
+                        "full_name": "Electronic Learning Tablet",
+                        "brand": "EduTech",
+                        "price": "₹1999",
+                        "mrp": "₹2499",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Sunday, 11 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 72 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "EduTech"
+                        },
+                        "emi": "EMI starts at ₹100 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the EduTech store",
+                        "detail_image": "images/toy_7.jpg"
+                    },
+                    "toy_8": {
+                        "full_name": "Plush Stuffed Animal",
+                        "brand": "CuddlyToys",
+                        "price": "₹799",
+                        "mrp": "₹999",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Wednesday, 7 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 24 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "CuddlyToys"
+                        },
+                        "emi": "EMI starts at ₹40 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the CuddlyToys store",
+                        "detail_image": "images/toy_8.jpg"
+                    }
+                },
+                "Fashion Trends": {
+                    "finestfit_1": {
+                        "full_name": "Designer Jacket",
+                        "brand": "FinestFit",
+                        "price": "₹2999",
+                        "mrp": "₹3999",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Monday, 5 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 36 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "FashionHub"
+                        },
+                        "emi": "EMI starts at ₹150 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the FinestFit store",
+                        "detail_image": "images/fashion_1.jpg"
+                    },
+                    "fashion_2": {
+                        "full_name": "Casual Shirt",
+                        "brand": "Trendsetter",
+                        "price": "₹1199",
+                        "mrp": "₹1599",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Tuesday, 6 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Tomorrow. Order within 24 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "FashionHub"
+                        },
+                        "emi": "EMI starts at ₹60 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the Trendsetter store",
+                        "detail_image": "images/fashion_2.jpg"
+                    },
+                    "fashion_3": {
+                        "full_name": "Elegant Dress",
+                        "brand": "GlamourWear",
+                        "price": "₹3499",
+                        "mrp": "₹4499",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Wednesday, 7 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 48 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "GlamourWear"
+                        },
+                        "emi": "EMI starts at ₹175 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the GlamourWear store",
+                        "detail_image": "images/fashion_3.jpg"
+                    },
+                    "fashion_4": {
+                        "full_name": "Stylish Sunglasses",
+                        "brand": "SunShine",
+                        "price": "₹799",
+                        "mrp": "₹999",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Thursday, 8 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Tomorrow. Order within 36 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "SunShine"
+                        },
+                        "emi": "EMI starts at ₹40 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the SunShine store",
+                        "detail_image": "images/fashion_4.jpg"
+                    },
+                    "fashion_5": {
+                        "full_name": "Formal Shoes",
+                        "brand": "EliteFootwear",
+                        "price": "₹2199",
+                        "mrp": "₹2799",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Friday, 9 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 48 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "EliteFootwear"
+                        },
+                        "emi": "EMI starts at ₹110 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the EliteFootwear store",
+                        "detail_image": "images/fashion_5.jpg"
+                    },
+                    "fashion_6": {
+                        "full_name": "Trendy Handbag",
+                        "brand": "BagLuxe",
+                        "price": "₹1599",
+                        "mrp": "₹1999",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Saturday, 10 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 72 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "BagLuxe"
+                        },
+                        "emi": "EMI starts at ₹80 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the BagLuxe store",
+                        "detail_image": "images/fashion_6.jpg"
+                    },
+                    "fashion_7": {
+                        "full_name": "Casual Sneakers",
+                        "brand": "SportyFeet",
+                        "price": "₹1399",
+                        "mrp": "₹1799",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Sunday, 11 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 48 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "SportyFeet"
+                        },
+                        "emi": "EMI starts at ₹70 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the SportyFeet store",
+                        "detail_image": "images/fashion_7.jpg"
+                    },
+                    "fashion_8": {
+                        "full_name": "Winter Scarf",
+                        "brand": "WarmWear",
+                        "price": "₹499",
+                        "mrp": "₹699",
+                        "delivery": {
+                            "price": "Free delivery",
+                            "delivery_time": "Monday, 12 August on orders dispatched by Amazon over ₹499",
+                            "fastest_delivery": "Or fastest delivery Today. Order within 36 hrs."
+                        },
+                        "availability": "In stock",
+                        "seller": {
+                            "shipper": "Amazon",
+                            "sold_by": "WarmWear"
+                        },
+                        "emi": "EMI starts at ₹25 per month",
+                        "tax_info": "Inclusive of all taxes",
+                        "additional_info": "Visit the WarmWear store",
+                        "detail_image": "images/fashion_8.jpg"
+                    }
+                }
+            
+    }
+    
+ }

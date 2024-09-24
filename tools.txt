@@ -1,0 +1,9 @@
+
+search icon
+<i class="fa-solid fa-magnifying-glass"></i>
+
+location
+<i class="fa-sharp fa-regular fa-location-dot"></i>
+
+cart
+<i class="fa-regular fa-cart-shopping"></i>

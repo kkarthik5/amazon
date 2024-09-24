@@ -1,0 +1,128 @@
+To enable dynamic redirection to a product description page with unique details for each product, you need to follow these steps:
+
+1. Update data.json
+Add details for each product in your data.json file. You need to include product-specific information such as ID, name, description, price, and image URL. Here’s how you can structure it:
+
+json
+Copy code
+{
+    "categories": {
+        "Clothes": [
+            {
+                "id": "1",
+                "image": "cloth_1.png",
+                "name": "Cool Shirt",
+                "description": "A cool shirt for all occasions.",
+                "price": "₹499",
+                "details_image": "cloth_1_details.png"
+            },
+            // Add other products similarly
+        ],
+        "Personal Care": [
+            {
+                "id": "1",
+                "image": "personal_1.png",
+                "name": "Eye Mask",
+                "description": "An eye mask with cooling gel for dark circles.",
+                "price": "₹199",
+                "details_image": "personal_1_details.png"
+            },
+            // Add other products similarly
+        ]
+        // Add other categories similarly
+    }
+}
+2. Update script.js
+Add Event Listener for Image Clicks:
+
+Update your script to include event listeners for images, so when an image is clicked, it redirects to the product detail page with the relevant information.
+
+javascript
+Copy code
+// Assuming each image has a unique identifier
+document.querySelectorAll('.category-item img').forEach(img => {
+    img.addEventListener('click', function() {
+        const productId = this.dataset.id; // Use a data attribute for ID
+        window.location.href = `product.html?id=${productId}`;
+    });
+});
+Retrieve Product Data:
+
+On your product detail page (product.html), retrieve the product ID from the query parameters, fetch the details from data.json, and populate the page with the product details.
+
+javascript
+Copy code
+// product.js
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('id');
+    
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            let product;
+            // Find the product in the categories
+            for (const category in data.categories) {
+                product = data.categories[category].find(p => p.id === productId);
+                if (product) break;
+            }
+            if (product) {
+                document.querySelector('.details-left img').src = product.details_image;
+                document.querySelector('.details-right h1').textContent = product.name;
+                document.querySelector('.product-description').textContent = product.description;
+                document.querySelector('.product-price').textContent = product.price;
+                // Populate other details similarly
+            }
+        })
+        .catch(error => console.error('Error loading product details:', error));
+});
+3. Ensure Your HTML Template Supports Dynamic Content
+Ensure your product.html file is set up to have elements with the right classes or IDs that your JavaScript code will use to insert the product details.
+
+Here’s a brief structure of your product.html to match your provided template:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta and CSS links -->
+</head>
+<body>
+    <header>
+        <!-- Navbar and Panel -->
+    </header>
+
+    <div class="details">
+        <div class="details-spacer"></div>
+        <div class="details-container">
+            <div class="details-left">
+                <img src="" alt="Product Image">
+            </div>
+            <div class="details-right">
+                <h1></h1>
+                <p class="product-description"></p>
+                <p class="mini-desc"></p>
+                <div class="product-price"></div>
+                <!-- Other details -->
+            </div>
+            <div class="border-right">
+                <!-- Additional details and buttons -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Footer -->
+    </footer>
+
+    <script src="product.js"></script>
+</body>
+</html>
+With these updates, clicking on a dynamically loaded image should take you to a product detail page displaying the relevant information based on the data provided.
+
+
+
+
+
+

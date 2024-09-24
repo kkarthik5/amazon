@@ -1,0 +1,207 @@
+{
+    "categories":{
+        "Clothes":[
+            "cloth_1.png",
+            "cloth_2.png",
+            "cloth_3.png",
+            "cloth_4.jpg",
+            "cloth_5.png",
+            "cloth_6.png",
+            "cloth_7.png",
+            "cloth_8.png"
+        ],
+        "Personal Care":[
+            "personal_1.png",
+            "personal_2.png",
+            "personal_3.png",
+            "personal_4.png",
+            "personal_5.png",
+            "personal_6.png",
+            "personal_7.png",
+            "personal_8.png"
+        ],
+        "Furniture":[
+            "furn_1.png",
+            "furn_2.png",
+            "furn_3.png",
+            "furn_4.png",
+            "furn_5.png",
+            "furn_6.png",
+            "furn_7.png",
+            "furn_8.png"
+        ],
+        "Electronics":[
+            "elec_1.png",
+            "elec_2.png",
+            "elec_3.png",
+            "elec_4.png",
+            "elec_5.png",
+            "elec_6.png",
+            "elec_7.png",
+            "elec_8.png"
+        ],
+        "Beauty Picks":[
+            "beauty_1.png",
+            "beauty_2.png",
+            "beauty_3.png",
+            "beauty_4.png",
+            "beauty_5.png",
+            "beauty_6.png",
+            "beauty_7.png",
+            "beauty_8.png" 
+        ],
+        "Pet Care":[
+            "pet_1.jpg",
+            "pet_2.jpg",
+            "pet_3.jpg",
+            "pet_4.jpg",
+            "pet_5.jpg",
+            "pet_6.jpg",
+            "pet_7.jpg",
+            "pet_8.jpg"
+        ],
+        "New arrivals in Toys":[
+            "toy_1.jpg",
+            "toy_2.jpg",
+            "toy_3.jpg",
+            "toy_4.jpg",
+            "toy_5.jpg",
+            "toy_6.jpg",
+            "toy_7.jpg",
+            "toy_8.jpg"
+        ],
+        "Fashion Trends":[
+            "finestfit_1.jpg",
+            "fashion_2.jpg",
+            "fashion_3.jpg",
+            "fashion_4.jpg",
+            "fashion_5.jpg",
+            "fashion_6.jpg",
+            "fashion_7.jpg",
+            "fashion_8.jpg"     
+        ]
+    }
+}
+this is data.json
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Add click event listener to "See more" buttons
+    const seeMoreButtons = document.querySelectorAll('.see-more');
+
+    seeMoreButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const category = this.getAttribute('data-category');
+            if (category) {
+                // Redirect to the same page with a query parameter
+                window.location.search = `?category=${encodeURIComponent(category)}`;
+            }
+        });
+    });
+
+    // Handling the category section on the same page
+    const urlParams = new URLSearchParams(window.location.search);
+    const category = urlParams.get('category');
+
+    if (category) {
+        fetch('data/data.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const categoryData = data.categories[category];
+                const container = document.getElementById('shop-section');
+                if (container) {
+                    // Clear the section first
+                    container.innerHTML = '';
+                    if (categoryData) {
+                        // Append images or relevant data for the category
+                        container.innerHTML = categoryData.map(image => `<div class="category-item"><img src="images/${image}" alt="${category}"></div>`).join('');
+                    } else {
+                        container.innerHTML = '<p>Category not found</p>';
+                    }
+                } else {
+                    console.error('Element with ID "shop-section" not found.');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                const container = document.getElementById('shop-section');
+                if (container) {
+                    container.innerHTML = '<p>Error loading data</p>';
+                }
+            });
+    }
+});
+this is script.js
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Add click event listener to "See more" buttons
+    const seeMoreButtons = document.querySelectorAll('.see-more');
+
+    seeMoreButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const category = this.getAttribute('data-category');
+            if (category) {
+                // Redirect to the same page with a query parameter
+                window.location.search = `?category=${encodeURIComponent(category)}`;
+            }
+        });
+    });
+
+    // Handling the category section on the same page
+    const urlParams = new URLSearchParams(window.location.search);
+    const category = urlParams.get('category');
+
+    if (category) {
+        fetch('data/data.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const categoryData = data[category];
+                const container = document.getElementById('shop-section');
+                if (container) {
+                    // Clear the section first
+                    container.innerHTML = '';
+                    if (categoryData) {
+                        // Append images or relevant data for the category
+                        container.innerHTML = categoryData.map(item => 
+                            `<div class="category-item">
+                                <a href="details.html?id=${encodeURIComponent(item.id)}">
+                                    <img src="images/${item.image}" alt="${item.full_name}">
+                                </a>
+                            </div>`
+                        ).join('');
+                    } else {
+                        container.innerHTML = '<p>Category not found</p>';
+                    }
+                } else {
+                    console.error('Element with ID "shop-section" not found.');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                const container = document.getElementById('shop-section');
+                if (container) {
+                    container.innerHTML = '<p>Error loading data</p>';
+                }
+            });
+    }
+});
+this is the new script code
